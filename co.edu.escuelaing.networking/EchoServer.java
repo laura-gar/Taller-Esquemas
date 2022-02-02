@@ -11,6 +11,7 @@ public class EchoServer {
             System.exit(1);
         }
         Socket clientSocket = null;
+
         try {
             clientSocket = serverSocket.accept();
         } catch (IOException e) {
